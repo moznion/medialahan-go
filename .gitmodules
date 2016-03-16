@@ -1,0 +1,3 @@
+[submodule "medialahan"]
+	path = medialahan
+	url = git@github.com:moznion/medialahan.git
