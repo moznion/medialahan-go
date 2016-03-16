@@ -1,9 +1,9 @@
 package medialahan
 
 func GetExtensionByContentType(contentType string) string {
-	return ContentTypeToExt[contentType]
+	return contentTypeToExt[contentType]
 }
 
 func GetContentTypeByExtension(extension string) string {
-	return ExtToContentType[extension]
+	return extToContentType[extension]
 }

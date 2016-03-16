@@ -13,12 +13,12 @@ if __name__ == '__main__':
 
     print('package medialahan\n')
 
-    print('var ContentTypeToExt = map[string]string{')
+    print('var contentTypeToExt = map[string]string{')
     for content_type, exts in data.items():
         print('\t"%s": "%s",' % (content_type, exts[0]))
     print('}\n')
 
-    print('var ExtToContentType = map[string]string{')
+    print('var extToContentType = map[string]string{')
     bag = {}
     for content_type, exts in data.items():
         for ext in exts:
